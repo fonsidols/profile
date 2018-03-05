@@ -1708,6 +1708,7 @@
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.65;
+		text-align: center;
 		margin: 0 0 1em 0;
 	}
 
@@ -3445,7 +3446,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.55;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3483,10 +3484,10 @@
 					}
 
 			#banner > .inner .content {
-				display: -moz-flex;
-				display: -webkit-flex;
-				display: -ms-flex;
-				display: flex;
+				display: -moz-block;
+				display: -webkit-block;
+				display: -ms-block;
+				display: block;
 				-moz-align-items: center;
 				-webkit-align-items: center;
 				-ms-align-items: center;
@@ -3495,7 +3496,7 @@
 			}
 
 				#banner > .inner .content > * {
-					margin-left: 1.5em;
+					margin-left: 54em;
 					margin-bottom: 0;
 				}
 
@@ -3508,6 +3509,7 @@
 					font-weight: 600;
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
+					text-align: center;
 				}
 
 		#banner.major {
@@ -3545,7 +3547,7 @@
 		}
 
 		body.is-loading #banner:after {
-			opacity: 1.0;
+			opacity: 0.90;
 		}
 
 		body.is-loading #banner > .inner {
